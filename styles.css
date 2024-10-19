@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+
+h1{
+    font-family: 'PlayfairDisplay';
+    font-size: 45px;
+    color: #0400FF;
+}
+
+h2{
+    font-size: 18px;
+}
+
+form{
+    width: 50%;
+    margin:10%;
+    margin-left: 25%;
+    color: #0400FF;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #0400FF;
+}
+
+#enviar{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #0400ff5d;
+    border-right: 1px solid #0400ff5d;
+    border-radius: 10px;
+    color: #0400FF;
+}
+
+.logo{
+    text-align: center;
+    font-size:small;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 60px;
+    color: #0400FF;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.137) ;
+}
+
+.navbar a{
+    font-size: medium;
+    color: #0400FF;
+    text-decoration: none;
+    padding: 31px;
+    padding-bottom: 33.5px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.navbar li{
+    font-family: 'Poppins';
+    font-weight: bold;
+    float: left;
+}
+
+.carrito{
+    padding:20px;
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+.logo-img{
+    filter: invert(11%) sepia(77%) saturate(6148%) hue-rotate(246deg) brightness(102%) contrast(151%);
+}
+
+.div-form{
+    width: 100vw;
+    text-align: center;
+}
+
+.input{
+    border: 0;
+    border-bottom: 1px solid #0400FF;
+    height: 35px;
+}
+
+.one{
+    margin-right: 20.6px;
+    width: 47.1%;
+}
+
+.two{
+    width: 47.9%;
+}
+
+.asunto{
+    width: 100%;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+
+#nav_position{
+    border-bottom: 2px solid #0400FF;
+    padding-bottom: 31.5px;
+}
