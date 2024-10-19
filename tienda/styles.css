@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-family: 'BebasNeue';
+    color: #0400FF;
+    letter-spacing: 4px;
+    font-size: 43px;
+}
+
+.logo{
+    text-align: center;
+    font-size:small;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 60px;
+    color: #0400FF;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.137) ;
+}
+
+.navbar a{
+    font-size: medium;
+    color: #0400FF;
+    text-decoration: none;
+    padding: 31px;
+    padding-bottom: 33.5px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.navbar li{
+    font-family: 'Poppins';
+    font-weight: bold;
+    float: left;
+}
+
+.carrito{
+    padding:20px;
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+.logo-img{
+    filter: invert(11%) sepia(77%) saturate(6148%) hue-rotate(246deg) brightness(102%) contrast(151%);
+}
+
+.center-text h1{
+    color: #0400FF;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, auto));
+    gap: 2rem;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+.row{
+    position: relative;
+    transition: all .40s;
+}
+
+.row img{
+    width: 90%;
+    height: auto;
+    transition: all .40s;
+    border-radius: 10px
+}
+
+.row img:hover{
+    transform: scale(0.9);
+}
+
+.bx,bx-heart{
+    color: #0400FF;
+}
+
+#nav_position{
+    border-bottom: 2px solid #0400FF;
+    padding-bottom: 31.5px ;
+}
+
+span{
+    color: #0400FF;
+    text-decoration: line-through;
+}
