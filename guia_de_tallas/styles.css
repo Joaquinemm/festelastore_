@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+
+div{
+    width: 100vw;
+    height: auto;
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: #0400FF;
+    font-family: 'Poppins';
+}
+
+.row_expand{
+    height: 28px;
+}
+
+.medida{
+    text-align: left;
+    background-color: #0400FF;
+    color: rgb(255, 255, 255);
+    border-bottom: 1.5px solid rgb(255, 255, 255);
+    padding-left: 10px;
+}
+
+.vacio{
+    border: 1.5px solid rgb(255, 255, 255);
+    border-right: 1.5px solid #0400FF;
+}
+
+
+.vacio_2{
+    border-right: 1.5px solid #0400FF;
+    border-left: 2px solid rgb(255, 255, 255);
+}
+
+.vacio_3{
+    border-right: 1.5px solid rgb(255, 255, 255);
+}
+
+.vacio_4{
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+.m{
+    border-left: 2px solid #0400FF;
+}
+
+.xl{
+    border-top: 1.5px solid rgb(255, 255, 255);
+}
+
+.h{
+    border-right: 2px solid #0400FF;
+}
+
+.k{
+    border-bottom: rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+}
+
+.logo{
+    text-align: center;
+    font-size:small;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 60px;
+    color: #0400FF;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.137) ;
+}
+
+.navbar a{
+    font-size: medium;
+    color: #0400FF;
+    text-decoration: none;
+    padding: 31px;
+    padding-bottom: 33.5px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.navbar li{
+    font-family: 'Poppins';
+    font-weight: bold;
+    float: left;
+}
+
+.carrito{
+    padding:20px;
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+.logo-img{
+    filter: invert(11%) sepia(77%) saturate(6148%) hue-rotate(246deg) brightness(102%) contrast(151%);
+}
+
+
+td, th, table{
+    border: 1.5px solid #0400FF;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 3px 6px;
+}
+
+td{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#nav_position{
+    border-bottom: 2px solid #0400FF;
+    padding-bottom: 31.5px ;
+}
